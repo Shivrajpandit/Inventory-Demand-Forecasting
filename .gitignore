@@ -69,7 +69,11 @@ pnpm-debug.log*
 .DS_Store
 Thumbs.db
 
-# Logs
+# Logs & Databases
 logs/
 *.log
 backend/logs/
+*.db
+*.sqlite
+*.sqlite3
+
