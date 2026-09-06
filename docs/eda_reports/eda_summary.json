@@ -1,0 +1,203 @@
+{
+  "overall": {
+    "total_units_sold": 769770,
+    "total_revenue": 4251328.5,
+    "avg_daily_units": 1054.48,
+    "std_daily_units": 244.29,
+    "total_records": 21900,
+    "date_start": "2024-01-01",
+    "date_end": "2025-12-30"
+  },
+  "products": {
+    "top_selling_products": [
+      {
+        "Product_ID": "PRD_05",
+        "Product_Name": "Organic Free-Range Eggs 12ct",
+        "Category": "Dairy",
+        "Total_Units": 136324,
+        "Avg_Daily_Units": 62.24840182648402,
+        "Std_Daily_Units": 21.342567649685517,
+        "Total_Revenue": 566346.76
+      },
+      {
+        "Product_ID": "PRD_01",
+        "Product_Name": "Organic Whole Milk 1 Gal",
+        "Category": "Dairy",
+        "Total_Units": 123038,
+        "Avg_Daily_Units": 56.18173515981735,
+        "Std_Daily_Units": 19.62731417141812,
+        "Total_Revenue": 594127.37
+      },
+      {
+        "Product_ID": "PRD_06",
+        "Product_Name": "Sparkling Mineral Water 12pk",
+        "Category": "Beverages",
+        "Total_Units": 94708,
+        "Avg_Daily_Units": 43.24566210045662,
+        "Std_Daily_Units": 18.345571595430506,
+        "Total_Revenue": 640580.52
+      },
+      {
+        "Product_ID": "PRD_02",
+        "Product_Name": "Artisan Sourdough Bread",
+        "Category": "Bakery",
+        "Total_Units": 82798,
+        "Avg_Daily_Units": 37.80730593607306,
+        "Std_Daily_Units": 14.879977918428235,
+        "Total_Revenue": 279933.14
+      },
+      {
+        "Product_ID": "PRD_04",
+        "Product_Name": "Greek Yogurt Vanilla 32oz",
+        "Category": "Dairy",
+        "Total_Units": 76602,
+        "Avg_Daily_Units": 34.97808219178082,
+        "Std_Daily_Units": 12.797415581536875,
+        "Total_Revenue": 333267.87
+      }
+    ],
+    "lowest_selling_products": [
+      {
+        "Product_ID": "PRD_03",
+        "Product_Name": "Cold Brew Coffee 32oz",
+        "Category": "Beverages",
+        "Total_Units": 68385,
+        "Avg_Daily_Units": 31.226027397260275,
+        "Std_Daily_Units": 13.83078438917024,
+        "Total_Revenue": 396713.85000000003
+      },
+      {
+        "Product_ID": "PRD_10",
+        "Product_Name": "Roasted Almonds Salted 16oz",
+        "Category": "Snacks",
+        "Total_Units": 59948,
+        "Avg_Daily_Units": 27.37351598173516,
+        "Std_Daily_Units": 10.26925013658352,
+        "Total_Revenue": 521865.82
+      },
+      {
+        "Product_ID": "PRD_07",
+        "Product_Name": "Gourmet Dark Chocolate 85%",
+        "Category": "Snacks",
+        "Total_Units": 54474,
+        "Avg_Daily_Units": 24.873972602739727,
+        "Std_Daily_Units": 10.758642375524834,
+        "Total_Revenue": 210538.86000000002
+      },
+      {
+        "Product_ID": "PRD_08",
+        "Product_Name": "Organic Quinoa 2lb",
+        "Category": "Pantry",
+        "Total_Units": 40768,
+        "Avg_Daily_Units": 18.61552511415525,
+        "Std_Daily_Units": 6.783484099700537,
+        "Total_Revenue": 296069.76
+      },
+      {
+        "Product_ID": "PRD_09",
+        "Product_Name": "Extra Virgin Olive Oil 500ml",
+        "Category": "Pantry",
+        "Total_Units": 32725,
+        "Avg_Daily_Units": 14.942922374429223,
+        "Std_Daily_Units": 5.427619387370799,
+        "Total_Revenue": 411884.55
+      }
+    ]
+  },
+  "categories": {
+    "categories": [
+      {
+        "Category": "Dairy",
+        "Total_Units": 335964,
+        "Total_Revenue": 1493742.0,
+        "Avg_Daily_Units": 51.13607305936073
+      },
+      {
+        "Category": "Beverages",
+        "Total_Units": 163093,
+        "Total_Revenue": 1037294.37,
+        "Avg_Daily_Units": 37.23584474885845
+      },
+      {
+        "Category": "Snacks",
+        "Total_Units": 114422,
+        "Total_Revenue": 732404.68,
+        "Avg_Daily_Units": 26.123744292237443
+      },
+      {
+        "Category": "Pantry",
+        "Total_Units": 73493,
+        "Total_Revenue": 707954.31,
+        "Avg_Daily_Units": 16.77922374429224
+      },
+      {
+        "Category": "Bakery",
+        "Total_Units": 82798,
+        "Total_Revenue": 279933.14,
+        "Avg_Daily_Units": 37.80730593607306
+      }
+    ]
+  },
+  "temporal": {
+    "dow_ranking": [
+      {
+        "DOW_Name": "Saturday",
+        "Units_Sold": 46.009935897435895
+      },
+      {
+        "DOW_Name": "Friday",
+        "Units_Sold": 40.665705128205126
+      },
+      {
+        "DOW_Name": "Sunday",
+        "Units_Sold": 38.17403846153846
+      },
+      {
+        "DOW_Name": "Thursday",
+        "Units_Sold": 33.35769230769231
+      },
+      {
+        "DOW_Name": "Wednesday",
+        "Units_Sold": 30.58076923076923
+      },
+      {
+        "DOW_Name": "Tuesday",
+        "Units_Sold": 29.791428571428572
+      },
+      {
+        "DOW_Name": "Monday",
+        "Units_Sold": 27.58984126984127
+      }
+    ],
+    "seasonal_summary": [
+      {
+        "Season": "Autumn",
+        "Units_Sold": 33.288278388278385
+      },
+      {
+        "Season": "Spring",
+        "Units_Sold": 37.33949275362319
+      },
+      {
+        "Season": "Summer",
+        "Units_Sold": 35.19981884057971
+      },
+      {
+        "Season": "Winter",
+        "Units_Sold": 34.74055555555555
+      }
+    ]
+  },
+  "business_factors": {
+    "promo_lift_percentage": 46.19,
+    "avg_units_no_promo": 32.81,
+    "avg_units_with_promo": 47.96,
+    "avg_units_regular_day": 34.45,
+    "avg_units_holiday": 45.72
+  },
+  "inventory": {
+    "total_stockout_events": 3,
+    "stockout_rate_percentage": 0.01,
+    "avg_inventory_on_hand": 163.33
+  }
+}
