@@ -1,0 +1,50 @@
+{
+  "model_name": "Random Forest",
+  "version": "1.0.0",
+  "saved_at": "2026-09-06T14:30:36.895381",
+  "artifact_file": "random_forest_v1.0.0.joblib",
+  "artifact_path": "models\\random_forest_v1.0.0.joblib",
+  "metrics": {
+    "MAE": 5.63,
+    "RMSE": 8.356,
+    "WAPE_pct": 16.97,
+    "sMAPE_pct": 17.69
+  },
+  "hyperparameters": {
+    "n_estimators": 100,
+    "max_depth": 10
+  },
+  "feature_importance": {
+    "Rolling_Mean_28": 0.6216157418755053,
+    "Lag_1": 0.0807122416114427,
+    "Price_Ratio": 0.03893410378179591,
+    "Day_of_Week": 0.03624023548258815,
+    "Lag_7": 0.032857248424258585,
+    "sin_dow": 0.031212031364155842,
+    "Lag_14": 0.030807224433148386,
+    "Holiday": 0.021683129550521204,
+    "Discount": 0.018054882133939038,
+    "Promotion": 0.01781108688514036,
+    "Lag_28": 0.017486990330879908,
+    "Inventory_Level": 0.007295395660477989,
+    "Rolling_Mean_14": 0.006854925936272474,
+    "Rolling_Std_28": 0.004877553914001084,
+    "Rolling_Mean_7": 0.004557714574418567,
+    "Rolling_Std_7": 0.004523310537866271,
+    "cos_dow": 0.004348902595104547,
+    "Rolling_Std_14": 0.004207525932484098,
+    "Day_of_Month": 0.004055232836318818,
+    "Week_of_Year": 0.0031257034181256522,
+    "Price": 0.0016039528097040589,
+    "sin_month": 0.001333318259056311,
+    "Month": 0.001025673959449011,
+    "cos_month": 0.001022462617908273,
+    "Product_ID": 0.0009306025732087198,
+    "Store_ID": 0.000901663342512075,
+    "Category": 0.0006487865586852583,
+    "Season": 0.0005668381595783107,
+    "Quarter": 0.00045294239211408416,
+    "Is_Weekend": 0.0002525780493390901
+  },
+  "is_champion": false
+}

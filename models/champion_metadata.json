@@ -1,0 +1,51 @@
+{
+  "model_name": "LightGBM",
+  "version": "1.0.0",
+  "saved_at": "2026-09-06T14:30:36.902381",
+  "artifact_file": "lightgbm_v1.0.0.joblib",
+  "artifact_path": "models\\lightgbm_v1.0.0.joblib",
+  "metrics": {
+    "MAE": 5.337,
+    "RMSE": 7.856,
+    "WAPE_pct": 16.09,
+    "sMAPE_pct": 17.03
+  },
+  "hyperparameters": {
+    "n_estimators": 150,
+    "learning_rate": 0.05,
+    "num_leaves": 31
+  },
+  "feature_importance": {
+    "Rolling_Mean_28": 0.11,
+    "Inventory_Level": 0.0908888888888889,
+    "Holiday": 0.07288888888888889,
+    "Day_of_Week": 0.06355555555555556,
+    "Discount": 0.06155555555555556,
+    "Lag_1": 0.05577777777777778,
+    "Lag_7": 0.04666666666666667,
+    "Day_of_Month": 0.043555555555555556,
+    "Lag_14": 0.042222222222222223,
+    "Lag_28": 0.03955555555555555,
+    "Week_of_Year": 0.034,
+    "Rolling_Std_28": 0.03333333333333333,
+    "Rolling_Std_7": 0.03155555555555556,
+    "Rolling_Mean_14": 0.029777777777777778,
+    "Rolling_Mean_7": 0.029555555555555557,
+    "Product_ID": 0.029111111111111112,
+    "sin_dow": 0.029111111111111112,
+    "Rolling_Std_14": 0.026,
+    "cos_dow": 0.024666666666666667,
+    "Price_Ratio": 0.02,
+    "Price": 0.019555555555555555,
+    "cos_month": 0.017777777777777778,
+    "Month": 0.013555555555555555,
+    "sin_month": 0.012222222222222223,
+    "Season": 0.009333333333333334,
+    "Store_ID": 0.007555555555555556,
+    "Category": 0.006222222222222222,
+    "Promotion": 0.0,
+    "Is_Weekend": 0.0,
+    "Quarter": 0.0
+  },
+  "is_champion": true
+}

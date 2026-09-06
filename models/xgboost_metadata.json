@@ -1,0 +1,51 @@
+{
+  "model_name": "XGBoost",
+  "version": "1.0.0",
+  "saved_at": "2026-09-06T14:30:36.914888",
+  "artifact_file": "xgboost_v1.0.0.joblib",
+  "artifact_path": "models\\xgboost_v1.0.0.joblib",
+  "metrics": {
+    "MAE": 5.357,
+    "RMSE": 7.855,
+    "WAPE_pct": 16.15,
+    "sMAPE_pct": 17.06
+  },
+  "hyperparameters": {
+    "n_estimators": 150,
+    "max_depth": 6,
+    "learning_rate": 0.05
+  },
+  "feature_importance": {
+    "Rolling_Mean_28": 0.31041938066482544,
+    "Rolling_Mean_14": 0.1131155863404274,
+    "Discount": 0.09283594787120819,
+    "Promotion": 0.08384694159030914,
+    "Day_of_Week": 0.0598343089222908,
+    "Lag_1": 0.048776775598526,
+    "Price_Ratio": 0.047419533133506775,
+    "sin_dow": 0.03625009208917618,
+    "Rolling_Mean_7": 0.029754623770713806,
+    "Lag_14": 0.024079350754618645,
+    "Holiday": 0.0235213004052639,
+    "Lag_7": 0.02171519212424755,
+    "cos_dow": 0.014067528769373894,
+    "Is_Weekend": 0.013125630095601082,
+    "Lag_28": 0.012808866798877716,
+    "Week_of_Year": 0.006374489516019821,
+    "Quarter": 0.005545953754335642,
+    "Price": 0.005295921582728624,
+    "Inventory_Level": 0.005289698019623756,
+    "Month": 0.0050538224168121815,
+    "Category": 0.004954783711582422,
+    "Rolling_Std_28": 0.004940342158079147,
+    "Day_of_Month": 0.004824014380574226,
+    "sin_month": 0.004686606582254171,
+    "cos_month": 0.004369750618934631,
+    "Product_ID": 0.004076524171978235,
+    "Rolling_Std_14": 0.004010593984276056,
+    "Rolling_Std_7": 0.0037901331670582294,
+    "Season": 0.0031029735691845417,
+    "Store_ID": 0.0021133683621883392
+  },
+  "is_champion": false
+}

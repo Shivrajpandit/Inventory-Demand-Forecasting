@@ -1,0 +1,45 @@
+{
+  "model_name": "Ridge Regression",
+  "version": "1.0.0",
+  "saved_at": "2026-09-06T14:30:36.869378",
+  "artifact_file": "ridge_regression_v1.0.0.joblib",
+  "artifact_path": "models\\ridge_regression_v1.0.0.joblib",
+  "metrics": {
+    "MAE": 6.224,
+    "RMSE": 8.951,
+    "WAPE_pct": 18.76,
+    "sMAPE_pct": 21.69
+  },
+  "hyperparameters": {
+    "alpha": 10.0
+  },
+  "feature_importance": {
+    "Rolling_Mean_28": 13.075494462495804,
+    "Holiday": 3.016768518770462,
+    "Rolling_Mean_7": 2.9633561977720797,
+    "Lag_7": 2.7545588010151834,
+    "cos_dow": 2.60225424744979,
+    "Discount": 2.5624864704996573,
+    "Promotion": 2.5624864704996226,
+    "Lag_1": 2.2468305219184557,
+    "Lag_14": 2.076203288136453,
+    "sin_dow": 1.8924901101219946,
+    "Lag_28": 1.6418639332718854,
+    "Is_Weekend": 1.6396959157474356,
+    "Category_Pantry": 1.306918534010221,
+    "Rolling_Mean_14": 1.2002604718005587,
+    "Rolling_Std_14": 0.9755811488029347,
+    "Category_Dairy": 0.8769209761602165,
+    "Category_Beverages": 0.6902744896887513,
+    "Rolling_Std_7": 0.5798207381900232,
+    "Store_ID_STR_01": 0.4126137728196822,
+    "sin_month": 0.3864211028231159,
+    "Category_Snacks": 0.37767681742410036,
+    "Store_ID_STR_03": 0.32951263852393264,
+    "cos_month": 0.20427072297522986,
+    "Price": 0.17430171163238684,
+    "Category_Bakery": 0.11739988556784513,
+    "Store_ID_STR_02": 0.08310113429909677
+  },
+  "is_champion": false
+}
