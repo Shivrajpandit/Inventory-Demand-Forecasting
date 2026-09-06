@@ -1,0 +1,37 @@
+[
+  {
+    "model": "Naive (Lag 1)",
+    "MAE": 9.73,
+    "RMSE": 13.616,
+    "WAPE_pct": 29.33,
+    "sMAPE_pct": 30.2
+  },
+  {
+    "model": "Seasonal Naive (Lag 7)",
+    "MAE": 9.902,
+    "RMSE": 14.122,
+    "WAPE_pct": 29.85,
+    "sMAPE_pct": 30.03
+  },
+  {
+    "model": "Moving Average (7d)",
+    "MAE": 8.977,
+    "RMSE": 12.474,
+    "WAPE_pct": 27.06,
+    "sMAPE_pct": 27.41
+  },
+  {
+    "model": "Moving Average (14d)",
+    "MAE": 8.939,
+    "RMSE": 12.354,
+    "WAPE_pct": 26.95,
+    "sMAPE_pct": 27.32
+  },
+  {
+    "model": "Product Historical Mean",
+    "MAE": 10.463,
+    "RMSE": 13.833,
+    "WAPE_pct": 31.54,
+    "sMAPE_pct": 31.45
+  }
+]
